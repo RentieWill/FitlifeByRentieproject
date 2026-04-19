@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog - Fit Life</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">ShopZone</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="blog.html">Blog</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>Fit Life Blog</h1>
+
+  <div class="card">
+    <h3>Top 5 Workout Habits</h3>
+    <p>Consistency beats motivation every time. Build discipline first.</p>
+  </div>
+
+  <div class="card">
+    <h3>Nutrition Basics</h3>
+    <p>Your results depend on what you eat just as much as how you train.</p>
+  </div>
+
+  <div class="card">
+    <h3>Mental Strength</h3>
+    <p>Fitness starts in the mind before it shows in the body.</p>
+  </div>
+
+</div>
+
+</body>
+</html>

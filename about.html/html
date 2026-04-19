@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Fit Life</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">ShopZone</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="blog.html">Blog</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>About Fit Life by Rentie</h1>
+
+  <div class="card">
+    <p>Fit Life by Rentie is more than fitness — it’s a lifestyle brand built on discipline, creativity, and transformation.</p>
+  </div>
+
+  <div class="card">
+    <p>We focus on helping individuals reach peak performance physically and mentally through structured systems and motivation.</p>
+  </div>
+</div>
+
+</body>
+</html>

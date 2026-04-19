@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopZone - Fit Life</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">ShopZone</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="blog.html">Blog</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>ShopZone</h1>
+
+  <div class="card">
+    <h3>Fitness Apparel</h3>
+    <p>High-performance gear built for comfort and strength.</p>
+  </div>
+
+  <div class="card">
+    <h3>Workout Programs</h3>
+    <p>Custom training plans for real results.</p>
+  </div>
+
+  <div class="card">
+    <h3>Nutrition Guides</h3>
+    <p>Fuel your body the right way.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
