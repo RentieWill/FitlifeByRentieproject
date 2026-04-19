@@ -27,6 +27,215 @@
     <p>Helping you build a healthier body and sharper mindset through fitness, discipline, and lifestyle design.</p>
   </div>
 </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fit Life by Rentie</title>
 
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(100, 207, 226);
+}
+
+/* CENTERED CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* NAVBAR */
+nav {
+  background: #305266;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #5ab68898;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* FLEX SECTION */
+.flex-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container div {
+  background: #cac6c6bb;
+  padding: 20px;
+  font-size: 20px;
+  flex: 1 1 100px;
+  text-align: center;
+}
+
+/* GRID SECTION */
+.grid-container {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.header {
+  background: rgb(0, 87, 128);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu {
+  background: #33b5e5;
+  padding: 10px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 5px;
+  background: #0099cc;
+  color: white;
+}
+
+.content {
+  background: white;
+  padding: 15px;
+}
+
+.facts {
+  background: rgb(11, 113, 145);
+  color: white;
+  padding: 15px;
+}
+
+.footer {
+  background: #0099cc;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* RESPONSIVE GRID */
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+}
+
+/* IMAGE */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* BUTTON */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Shop Zone</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+<header>
+  <h1>Living Fit (The "Rentie" Way)</h1>
+  <p>Holistic fitness and herbal healing resources</p>
+</header>
+
+<img src="images/ftbyre.jpeg" alt="Stylized blue and purple fitness logo showing a kettlebell with wings and a central R on a black background with the text EST. 2023 and BY RENTIE, conveying an energetic uplifting tone" width="460" height="345">
+
+<button onclick="changeBg()">Change Background</button>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+<section class="grid-container">
+  <div class="header"><h2>Lotus Flower</h2></div>
+
+  <div class="menu">
+    <ul>
+      <li>The Herb</li>
+      <li>The Medicine</li>
+      <li>The Food</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h3>The Herb</h3>
+    <p>Lotus flower is known for healing and spiritual balance.</p>
+  </div>
+
+  <div class="facts">
+    <h3>Facts</h3>
+    <ul>
+      <li>Edible root</li>
+      <li>Used in tea</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="footer">
+  FITNESS IS MENTAL!!
+</footer>
+
+</div>
+
+<script>
+function changeBg() {
+  document.body.style.backgroundColor = "mediumseagreen";
+}
+</script>
+
+</body>
+</html>
 </body>
 </html>
